@@ -1,0 +1,81 @@
+{
+  "manifestVersion": 1,
+  "id": "check-nuget-duplications",
+  "version": "0.1.1",
+  "name": "Check Duplicate NuGet packages ",
+  "description": "Check for duplicate versions of NuGet packages",
+  "publisher": "RefaelYehuda",
+    "icons": {
+    "default": "img/extension.png"
+},
+
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "tags": [
+    "NuGet"
+],
+
+"galleryFlags": [
+        "Public"
+    ],
+
+ "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "links": {
+    "home": {
+      "uri": "https://github.com/refaelyehuda"
+    },
+    "getstarted": {
+      "uri": "https://github.com/refaelyehuda/check-duplicate-nuget-packages"
+    },
+    "learn": {
+      "uri": "https://github.com/refaelyehuda/check-duplicate-nuget-packages"
+    },
+    "support": {
+      "uri": "https://github.com/refaelyehuda/check-duplicate-nuget-packages"
+    },
+    "repository": {
+      "uri": "https://github.com/refaelyehuda/check-duplicate-nuget-packages"
+    },
+    "issues": {
+      "uri": "https://github.com/refaelyehuda/check-duplicate-nuget-packages"
+    }
+  },
+
+  "branding": {
+   "color": "rgb(220, 235, 252)",
+	"theme": "light"
+},
+"files": [
+{
+	"path": "CheckDuplicatePackages"
+},
+    {
+      "path": "img",
+      "addressable": true
+    }
+
+],
+	    "scopes": [
+        "vso.build_execute"
+],
+"categories": [
+        "Build and release"
+    ],
+  "contributions": [ 
+{
+  "id": "check-duplicate-nuget-packages",
+  "description": "Search for duplicate versions",
+  "type": "ms.vss-distributed-task.task",
+  "targets": [ "ms.vss-distributed-task.tasks" ],
+  "properties": {
+    "name": "CheckDuplicatePackages"
+  }
+} 
+] }

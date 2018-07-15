@@ -1,0 +1,15 @@
+{
+  "name": "check-packages",
+  "version": "1.0.0",
+  "description": "check duplicate packages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Refael Yehuda",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.9.1",
+    "vso-task-lib": "^0.5.5"
+  }
+}
